@@ -6,12 +6,12 @@ const { Header } = Layout;
 
 const listCities = ["Красноярск", "Москва", "Владивосток", "Краснодар", "Санкт-Петербург", "Пермь"]
 const options = listCities.map((value) => {
-    return { value, value }
+    return { value }
   })
 
 const TopHeader = () => {
     return (
-        <Header style={{ background: '#f4e0d9' }}>
+        <Header style={{ background: '#ffffff' }}>
           <div id="header-top-container">
               <div id="div-city-icon">
                 <EnvironmentOutlined />
